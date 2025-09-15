@@ -1,0 +1,117 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px auto auto;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-container > .gambar {
+  background-color: #6b6b6b;
+}
+.grid-container > .gambar .PP {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #4e3939;
+  margin-top: 6px;
+}
+.grid-container > .Nama {
+  background-color: #4e3939;
+  color: #ffffff;
+  width: 100%;
+  grid-column: 2/-1;
+}
+.grid-container > .Nama .Jurusan {
+  background-color: #4e3939;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+.grid-container > .Tentang {
+  background-color: #ffffff;
+  grid-column: 2/-1;
+}
+.grid-container > .Tentang p {
+  background-color: #4e3939;
+  font-size: 17px;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.grid-container > .Tentang .aboutMe {
+  text-align: left;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: black;
+}
+.grid-container > .Tentang .pendidikan {
+  margin-bottom: 27px;
+  margin-top: 51px;
+}
+.grid-container > .Kontak {
+  background-color: rgb(219, 215, 215);
+  width: 100%;
+  margin-left: -10px;
+  grid-column: 1;
+}
+.grid-container > .Kontak p {
+  background-color: #4e3939;
+  font-size: 17px;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.grid-container > .Kontak .tableKontak .bagianTelp .nomorTelp {
+  font-size: 30px;
+}
+.grid-container > .Kontak .hobiSaya {
+  font-size: 17px;
+  margin-top: 36px;
+  margin-bottom: -12px;
+}
+
+td {
+  background-color: rgb(219, 215, 215);
+  font-size: 15px;
+}
+
+.Kontak1 {
+  text-align: left;
+}
+
+li {
+  font-size: 15px;
+  text-align: left;
+  margin-left: -16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 2px solid #4e3939;
+}
+
+.gambar {
+  background-color: #eee;
+  text-align: left;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.no-border {
+  background-color: #ffffff;
+  margin: -10px;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=porto.css.map */

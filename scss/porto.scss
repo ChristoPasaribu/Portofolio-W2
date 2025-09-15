@@ -1,0 +1,145 @@
+// 🎨 Variabel warna & ukuran
+$primary-color: #4e3939;
+$secondary-color: #6b6b6b;
+$light-gray: rgb(219, 215, 215);
+$white: #ffffff;
+$border-radius: 15px;
+
+// 📦 Grid Container
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px auto auto;
+  gap: 10px;
+  background-color: $white;
+  padding: 10px;
+
+  > div {
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  // 🖼 Bagian Gambar
+  > .gambar {
+    background-color: $secondary-color;
+
+    .PP {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid $primary-color;
+      margin-top: 6px;
+    }
+  }
+
+  // 📛 Bagian Nama
+  > .Nama {
+    background-color: $primary-color;
+    color: $white;
+    width: 100%;
+    grid-column: 2 / -1;
+
+    .Jurusan {
+      background-color: $primary-color;
+      color: $white;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      border: 2px solid $white;
+      border-radius: $border-radius;
+      margin-right: 5px;
+    }
+  }
+
+  // ℹ️ Bagian Tentang
+  > .Tentang {
+    background-color: $white;
+    grid-column: 2 / -1;
+
+    p {
+      background-color: $primary-color;
+      font-size: 17px;
+      color: $white;
+      border-radius: $border-radius;
+    }
+
+    .aboutMe {
+      text-align: left;
+      font-size: 15px;
+      background-color: $white;
+      color: black;
+    }
+
+    .pendidikan {
+      margin-bottom: 27px;
+      margin-top: 51px;
+    }
+  }
+
+  // 📞 Bagian Kontak
+  > .Kontak {
+    background-color: $light-gray;
+    width: 100%;
+    margin-left: -10px;
+    grid-column: 1;
+
+    p {
+      background-color: $primary-color;
+      font-size: 17px;
+      color: $white;
+      border-radius: $border-radius;
+    }
+
+    .tableKontak {
+      .bagianTelp {
+        .nomorTelp {
+          font-size: 30px;
+        }
+      }
+    }
+
+    .hobiSaya {
+      font-size: 17px;
+      margin-top: 36px;
+      margin-bottom: -12px;
+    }
+  }
+}
+
+// 📝 Elemen umum
+td {
+  background-color: $light-gray;
+  font-size: 15px;
+}
+
+.Kontak1 {
+  text-align: left;
+}
+
+li {
+  font-size: 15px;
+  text-align: left;
+  margin-left: -16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 2px solid $primary-color;
+}
+
+.gambar {
+  background-color: #eee;
+  text-align: left;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.no-border {
+  background-color: $white;
+  margin: -10px;
+  padding: 20px;
+}
